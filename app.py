@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 # Tạo thư mục uploads nếu chưa tồn tại
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Tải mô hình YOLOv8
+# Tải mô hình YOLOv11
 models = {
     'yolov11n': YOLO('models/best.pt')
 }
